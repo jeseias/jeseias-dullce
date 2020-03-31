@@ -1,0 +1,47 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+html, body, #root {
+  width: 100vw;
+  height: 100vh;
+}
+
+.App {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  background:linear-gradient(90deg, #ff9a9e 0%,#fad0c4 100% );
+  text-align: center;
+}
+
+.App video {
+  display: block;
+  margin: 10px auto;
+  width: 90%;
+  max-width: 768px;
+}
+
+h1 {
+  color: #fff;
+  padding-top: 100px;
+}
+
+p {
+  color: #fff;
+  font-size: 20px;
+}
+
+.App a {
+  padding: 1rem 2rem;
+  color: #fff;
+  display: block;
+  width: 200px;
+  border-radius: 10px;
+  margin: 10px auto;
+  background:linear-gradient(90deg, #48c6ef 0%,#6f86d6 100% );
+  color: #fff;
+  text-decoration: none;
+}
